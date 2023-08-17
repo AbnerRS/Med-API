@@ -21,7 +21,7 @@ String email,
 String telefone,
 
 @NotBlank
-@Pattern(regexp = "\\d{4,6}")
+@Pattern(regexp = "\\d{4,8}")
 String crm, 
 
 @NotNull
