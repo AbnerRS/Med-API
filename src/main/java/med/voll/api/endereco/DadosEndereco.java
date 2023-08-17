@@ -12,7 +12,7 @@ String logradouro,
 String bairro, 
 
 @NotBlank
-@Pattern(regexp = "\\d{8}")
+@Pattern(regexp = "\\d{9}")
 String cep, 
 
 @NotBlank
