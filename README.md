@@ -32,7 +32,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ##### Aprendizado 1º Etapa do Projeto
 
-- [v] Mapear requisições POST em uma classe Controller 
+- [x] Mapear requisições POST em uma classe Controller 
 - [x] Enviar requisições POST para a API utilizando o Insomnia
 - [x] Enviar dados para API no formato JSON
 - [x] Utilizar a anotação @RequestBody para receber os dados do corpo da requisição em um parâmetro no Controller
