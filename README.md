@@ -48,5 +48,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Mapear parâmetros dinâmicos em URL com a anotação @PathVariable
 - [x] Implementar o conceito de exclusão lógica com o uso de um atributo booleano
 
+##### Aprendizado 2º Etapa do Projeto
+- [x] Utilizar a classe ResponseEntity, do Spring, para personalizar os retornos dos métodos de uma classe Controller
+- [x] Modificar o código HTTP devolvido nas respostas da API
+- [x] Adicionar cabeçalhos nas respostas da API
+- [x] Utilizar os códigos HTTP mais apropriados para cada operação realizada na API
+
+
 ###### Autor
 - Abner Rodrigues 
