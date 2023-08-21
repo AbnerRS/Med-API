@@ -1,6 +1,7 @@
 package med.voll.api.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -17,12 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import jakarta.validation.Valid;
-import med.voll.domain.medico.DadosAtualizacaoMedico;
-import med.voll.domain.medico.DadosCadastroMedico;
-import med.voll.domain.medico.DadosDetalhamentoMedico;
-import med.voll.domain.medico.DadosListagemMedico;
-import med.voll.domain.medico.Medico;
-import med.voll.domain.medico.MedicoRepository;
+import med.voll.api.domain.medico.*;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
 
 @RestController
 @RequestMapping("medicos")
