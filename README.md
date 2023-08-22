@@ -58,6 +58,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Tratar erros do tipo 404 (Not Found) na classe de tratamento de erros
 - [x] Tratar erros do tipo 400 (Bad Request), para erros de validação do Bean Validation, na classe de tratamento de erros
 - [x] Simplificar o JSON devolvido pela API em casos de erro de validação do Bean Validation
+- [x] Funciona o processo de autenticação e autorização em uma API Rest
+- [x] Adicionar o Spring Security ao projeto
+- [x] Funciona o comportamento padrão do Spring Security em uma aplicação
+- [x] Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security
 
 ###### Autor
 - Abner Rodrigues 
