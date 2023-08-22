@@ -62,6 +62,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Adicionar o Spring Security ao projeto
 - [x] Funciona o comportamento padrão do Spring Security em uma aplicação
 - [x] Implementar o processo de autenticação na API, de maneira Stateless, utilizando as classes e configurações do Spring Security
+- [x] Adicionar a biblioteca Auth0 java-jwt como dependência do projeto
+- [x] Utilizar essa biblioteca para realizar a geração de um token na API
+- [x] Injetar uma propriedade do arquivo application.properties em uma classe gerenciada pelo Spring, utilizando a anotação @Value
+- [x] Devolver um token gerado na API quando um usuário se autenticar nela
 
 ###### Autor
 - Abner Rodrigues 
