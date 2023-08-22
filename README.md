@@ -53,7 +53,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Modificar o código HTTP devolvido nas respostas da API
 - [x] Adicionar cabeçalhos nas respostas da API
 - [x] Utilizar os códigos HTTP mais apropriados para cada operação realizada na API
-
+- [x] Criar uma classe para isolar o tratamento de exceptions da API, com a utilização da anotação @RestControllerAdvice
+- [x] Utilizar a anotação @ExceptionHandler, do Spring, para indicar qual exception um determinado método da classe de tratamento de erros deve capturar
+- [x] Tratar erros do tipo 404 (Not Found) na classe de tratamento de erros
+- [x] Tratar erros do tipo 400 (Bad Request), para erros de validação do Bean Validation, na classe de tratamento de erros
+- [x] Simplificar o JSON devolvido pela API em casos de erro de validação do Bean Validation
 
 ###### Autor
 - Abner Rodrigues 
