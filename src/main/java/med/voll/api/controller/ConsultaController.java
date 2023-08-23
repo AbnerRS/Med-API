@@ -13,7 +13,7 @@ import jakarta.validation.Valid;
 import med.voll.api.domain.consulta.AgendaDeConsultas;
 import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.consulta.DadosCancelamentoConsulta;
-import med.voll.api.domain.consulta.DadosDetalhamentoConsulta;
+
 
 @RestController
 @RequestMapping("consultas")
