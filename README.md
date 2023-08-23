@@ -79,6 +79,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Implementar um algoritmo para a funcionalidade de agendamento de consultas
 - [x] Realizar validações de integridade das informações que chegam na API
 - [x] Implementar uma consulta JPQL (Java Persistence Query Language) complexa em uma interface repository, utilizando para isso a anotação @Query
+- [x] Isolar os códigos de validações de regras de negócio em classes separadas, utilizando nelas a anotação @Component do Spring
+- [x] Finalizar a implementação do algoritmo de agendamento de consultas
+- [x] Utilizar os princípios SOLID para deixar o código da funcionalidade de agendamento de consultas mais fácil de entender, evoluir e testar
 
 ###### Autor
 - Abner Rodrigues 
