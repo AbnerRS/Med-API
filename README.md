@@ -66,6 +66,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Utilizar essa biblioteca para realizar a geração de um token na API
 - [x] Injetar uma propriedade do arquivo application.properties em uma classe gerenciada pelo Spring, utilizando a anotação @Value
 - [x] Devolver um token gerado na API quando um usuário se autenticar nela
+- [x] Funcionamento dos Filters em uma requisição
+- [x] Implementar um filter criando uma classe que herda da classe OncePerRequestFilter, do Spring
+- [x] Utilizar a biblioteca Auth0 java-jwt para realizar a validação dos tokens recebidos na API
+- [x] Realizar o processo de autenticação da requisição, utilizando a classe SecurityContextHolder, do Spring
+- [x] Liberar e restringir requisições, de acordo com a URL e o verbo do protocolo HTTP
+
+##### Aprendizado 3º Etapa do Projeto
+- [x]
 
 ###### Autor
 - Abner Rodrigues 
