@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import jakarta.validation.ValidationException;
+import med.voll.api.domain.ValidacaoException;
 import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.domain.medico.MedicoRepository;
 
@@ -23,7 +24,7 @@ public class ValidadorMedicoAtivo implements ValidadorAgendamentoDeConsulta{
 
         var medicoEstaAtivo = repository.findAtivoById(dados.idMedico());
         if(!medicoEstaAtivo){
-            throw new ValidationException("Consulta não pode ser agendada com médico excluído");
+            throw new ValidacaoException("Consulta não pode ser agendada com médico excluído");
         }
     }
 }
