@@ -73,7 +73,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Liberar e restringir requisições, de acordo com a URL e o verbo do protocolo HTTP
 
 ##### Aprendizado 3º Etapa do Projeto
-- [x]
+- [x] Implementar uma nova funcionalidade de cadastro e cancelamento de consultas
+- [x] Avaliar quando é necessário criar uma classe Service na aplicação
+- [x] Criar uma classe Service, com o objetivo de isolar códigos de regras de negócio, utilizando para isso a anotação @Service
+- [x] Implementar um algoritmo para a funcionalidade de agendamento de consultas
+- [x] Realizar validações de integridade das informações que chegam na API
+- [x] Implementar uma consulta JPQL (Java Persistence Query Language) complexa em uma interface repository, utilizando para isso a anotação @Query
 
 ###### Autor
 - Abner Rodrigues 
