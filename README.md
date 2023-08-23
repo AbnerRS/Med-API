@@ -82,6 +82,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Isolar os códigos de validações de regras de negócio em classes separadas, utilizando nelas a anotação @Component do Spring
 - [x] Finalizar a implementação do algoritmo de agendamento de consultas
 - [x] Utilizar os princípios SOLID para deixar o código da funcionalidade de agendamento de consultas mais fácil de entender, evoluir e testar
+- [x] Adicionar a biblioteca SpringDoc no projeto para que ela faça a geração automatizada da documentação da API
+- [x] Analisar a documentação do SpringDoc para entender como realizar a sua configuração em um projeto
+- [x] Acessar os endereços que disponibilizam a documentação da API nos formatos yaml e html
+- [x] Utilizar o Swagger UI para visualizar e testar uma API Rest
+- [x] Configurar o JWT na documentação gerada pelo SpringDoc
 
 ###### Autor
 - Abner Rodrigues 
