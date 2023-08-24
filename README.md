@@ -87,6 +87,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Acessar os endereços que disponibilizam a documentação da API nos formatos yaml e html
 - [x] Utilizar o Swagger UI para visualizar e testar uma API Rest
 - [x] Configurar o JWT na documentação gerada pelo SpringDoc
+- [x] Escrever testes automatizados em uma aplicação com Spring Boot
+- [x] Escrever testes automatizados de uma interface Repository, seguindo a estratégia de usar o mesmo banco de dados que a aplicação utiliza
+- [x] Sobrescrever propriedades do arquivo application.properties, criando outro arquivo chamado application-test.properties que seja carregado apenas ao executar os testes, utilizando para isso a anotação @ActiveProfiles
+- [x] Escrever testes automatizados de uma classe Controller, utilizando a classe MockMvc para simular requisições na API
+- [x] Testar cenários de erro 400 e código 200 no teste de uma classe controller
 
 ###### Autor
 - Abner Rodrigues 
