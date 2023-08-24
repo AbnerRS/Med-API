@@ -92,6 +92,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Sobrescrever propriedades do arquivo application.properties, criando outro arquivo chamado application-test.properties que seja carregado apenas ao executar os testes, utilizando para isso a anotação @ActiveProfiles
 - [x] Escrever testes automatizados de uma classe Controller, utilizando a classe MockMvc para simular requisições na API
 - [x] Testar cenários de erro 400 e código 200 no teste de uma classe controller
+- [x] Funciona o build de uma aplicação com Spring Boot
+- [x] Utilizar arquivos de propriedades específicos para cada profile, alterando em cada arquivo as propriedades que precisam ser modificadas
+- [x] Configurar informações sensíveis da aplicação, como dados de acesso ao banco de dados, via variáveis de ambiente
+- [x] Realizar o build do projeto via Maven
+- [x] Executar a aplicação via terminal, com o comando java -jar, passando as variáveis de ambiente como parâmetro
 
 ###### Autor
 - Abner Rodrigues 
